@@ -13,11 +13,13 @@ function CustomerTickets({updatedTickets, inProgress, setInProgress}: CustomerTi
     return (
         <div className='flex flex-col justify-between items-start w-full gap-4'>
             <h1 className='text-black font-bold text-lg'>Customer Tickets</h1>
-            <div className='grid grid-cols-2 justify-between items-start gap-7'>
+            {
+                updatedTickets.length === 0 ? <p>All Tickets Resolved</p> : <div className='grid grid-cols-2 justify-between items-start gap-7'>
                 {
                     updatedTickets.map((ticket) => <Ticket key={ticket.id} ticket={ticket} inProgress={inProgress} setInProgress={setInProgress} />)
                 }
             </div>
+            }
         </div>
     );
 };
