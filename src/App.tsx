@@ -22,7 +22,7 @@ function App() {
   return (
     <div className='bg-[#f5f5f5]'>
       <Navbar />
-      <Banner inProgress={inProgress} />
+      <Banner inProgress={inProgress} isResolved={isResolved} />
       <Suspense fallback={<div>Loading.....</div>}>
         <Function 
         TicketPromise={TicketPromise()} 

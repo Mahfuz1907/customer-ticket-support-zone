@@ -4,14 +4,15 @@ import Progress from './Progress'
 import Resolved from './Resolved'
 
 export interface BannerProgressTypes{
-    inProgress:CustomerCardTypes[]
+    inProgress:CustomerCardTypes[],
+    isResolved:CustomerCardTypes[]
 }
 
-export default function Banner({inProgress}:BannerProgressTypes) {
+export default function Banner({inProgress, isResolved}:BannerProgressTypes) {
     return (
         <div className='m-20 flex flex-row justify-between items-center gap-4'>
             <Progress inProgress={inProgress} />
-            <Resolved />
+            <Resolved isResolved={isResolved} />
         </div>
     )
 }

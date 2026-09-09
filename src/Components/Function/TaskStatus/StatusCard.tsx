@@ -6,19 +6,31 @@ import { toast } from 'react-toastify';
 export interface ProgressCardProperty{
     progressCard: CustomerCardTypes, 
     isResolved: CustomerCardTypes[],
-    setIsResolved:Dispatch<SetStateAction<CustomerCardTypes[]>>
+    setIsResolved:Dispatch<SetStateAction<CustomerCardTypes[]>>,
+    inProgress:CustomerCardTypes[],
+    setInProgress:Dispatch<SetStateAction<CustomerCardTypes[]>>,
+    updatedTickets:CustomerCardTypes[],
+    setUpdatedTickets:Dispatch<SetStateAction<CustomerCardTypes[]>>
 }
 
-function StatusCard({progressCard, isResolved, setIsResolved}:ProgressCardProperty) {
+function StatusCard({progressCard, isResolved, setIsResolved, inProgress, setInProgress, updatedTickets, setUpdatedTickets}:ProgressCardProperty) {
 
     const handleConfirmButton = (card:CustomerCardTypes):void => {
         const isAlreadyIn = isResolved.some((item) => item.id === card.id)
+
+        const ticketAfterRemove = updatedTickets.filter((item) => item.id !== card.id)
+        setUpdatedTickets(ticketAfterRemove)
+
+        const updatedProgressArray = inProgress.filter((item) => item.id!== card.id)
+        setInProgress(updatedProgressArray)
+
         if(!isAlreadyIn){
             const resolvedArray = [...isResolved, card]
             toast.success(`${card.title} is resolved successfully`)
             setIsResolved(resolvedArray)
         }
     }
+
     return (
         <div className='bg-white rounded-lg px-3 py-1 flex flex-col justify-between items-start gap-2 w-full'>
             <h1>{progressCard.title}</h1>
