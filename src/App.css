@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.status-button {
+  border-radius: 20px;
+  padding: 2px 5px;
+  border: 1px solid white;
+}
+
+.status-dot {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}

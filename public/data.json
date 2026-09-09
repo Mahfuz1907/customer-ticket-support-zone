@@ -6,7 +6,7 @@
     "customer": "Acme Corp",
     "priority": "HIGH",
     "status": "OPEN",
-    "createdAt": "2026-09-01T08:30:00Z"
+    "createdAt": "2026-09-01"
   },
   {
     "id": 1002,
@@ -15,7 +15,7 @@
     "customer": "Global Tech Sol",
     "priority": "MEDIUM",
     "status": "IN_PROGRESS",
-    "createdAt": "2026-09-01T09:15:22Z"
+    "createdAt": "2026-09-01"
   },
   {
     "id": 1003,
@@ -24,7 +24,7 @@
     "customer": "Bright Startups",
     "priority": "LOW",
     "status": "CLOSED",
-    "createdAt": "2026-09-02T10:05:10Z"
+    "createdAt": "2026-09-02"
   },
   {
     "id": 1004,
@@ -33,7 +33,7 @@
     "customer": "Enterprise Networks",
     "priority": "URGENT",
     "status": "IN_PROGRESS",
-    "createdAt": "2026-09-02T11:45:00Z"
+    "createdAt": "2026-09-02"
   },
   {
     "id": 1005,
@@ -42,7 +42,7 @@
     "customer": "Pixel Craft",
     "priority": "MEDIUM",
     "status": "OPEN",
-    "createdAt": "2026-09-03T14:20:18Z"
+    "createdAt": "2026-09-03"
   },
   {
     "id": 1006,
@@ -51,7 +51,7 @@
     "customer": "Apex Solutions",
     "priority": "HIGH",
     "status": "OPEN",
-    "createdAt": "2026-09-03T16:00:45Z"
+    "createdAt": "2026-09-03"
   },
   {
     "id": 1007,
@@ -60,7 +60,7 @@
     "customer": "Data Dynamics",
     "priority": "LOW",
     "status": "RESOLVED",
-    "createdAt": "2026-09-04T09:11:00Z"
+    "createdAt": "2026-09-04"
   },
   {
     "id": 1008,
@@ -69,7 +69,7 @@
     "customer": "Urban Mobile",
     "priority": "LOW",
     "status": "IN_PROGRESS",
-    "createdAt": "2026-09-04T12:30:15Z"
+    "createdAt": "2026-09-04"
   },
   {
     "id": 1009,
@@ -78,7 +78,7 @@
     "customer": "SaaS Platform Inc",
     "priority": "URGENT",
     "status": "OPEN",
-    "createdAt": "2026-09-05T07:00:00Z"
+    "createdAt": "2026-09-05"
   },
   {
     "id": 1010,
@@ -87,7 +87,7 @@
     "customer": "LogiFreight",
     "priority": "HIGH",
     "status": "IN_PROGRESS",
-    "createdAt": "2026-09-05T13:40:22Z"
+    "createdAt": "2026-09-05"
   },
   {
     "id": 1011,
@@ -96,7 +96,7 @@
     "customer": "NextGen Retail",
     "priority": "LOW",
     "status": "CLOSED",
-    "createdAt": "2026-09-06T11:05:00Z"
+    "createdAt": "2026-09-06"
   },
   {
     "id": 1012,
@@ -105,6 +105,6 @@
     "customer": "FinTech Labs",
     "priority": "MEDIUM",
     "status": "OPEN",
-    "createdAt": "2026-09-07T08:15:33Z"
+    "createdAt": "2026-09-07"
   }
 ]
