@@ -17,12 +17,19 @@ function App() {
 
   const [inProgress, setInProgress] = useState<CustomerCardTypes[]>([])
 
+  const [isResolved, setIsResolved] = useState<CustomerCardTypes[]>([])
+
   return (
     <div className='bg-[#f5f5f5]'>
       <Navbar />
       <Banner inProgress={inProgress} />
       <Suspense fallback={<div>Loading.....</div>}>
-        <Function TicketPromise={TicketPromise()} inProgress={inProgress} setInProgress={setInProgress}/>
+        <Function 
+        TicketPromise={TicketPromise()} 
+        inProgress={inProgress} 
+        setInProgress={setInProgress} 
+        isResolved={isResolved}
+        setIsResolved={setIsResolved} />
       </Suspense>
       <Footer />
       <ToastContainer />
