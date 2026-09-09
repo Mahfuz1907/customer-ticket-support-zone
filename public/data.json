@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Payment Gateway Timeout",
+    "description": "Users are encountering 504 gateway timeouts when processing credit card transactions at checkout.",
+    "customer": "Acme Corp",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-01T08:30:00Z"
+  },
+  {
+    "id": 1002,
+    "title": "Password Reset Email Not Received",
+    "description": "Customers reporting that password reset links are not landing in their inboxes or spam folders.",
+    "customer": "Global Tech Sol",
+    "priority": "MEDIUM",
+    "status": "IN_PROGRESS",
+    "createdAt": "2026-09-01T09:15:22Z"
+  },
+  {
+    "id": 1003,
+    "title": "Dashboard Analytics Typo",
+    "description": "Minor spelling mistake in the monthly earnings summary section on the main dashboard.",
+    "customer": "Bright Startups",
+    "priority": "LOW",
+    "status": "CLOSED",
+    "createdAt": "2026-09-02T10:05:10Z"
+  },
+  {
+    "id": 1004,
+    "title": "Database Connection Leak",
+    "description": "API service crashing under heavy load due to unclosed PostgreSQL connections.",
+    "customer": "Enterprise Networks",
+    "priority": "URGENT",
+    "status": "IN_PROGRESS",
+    "createdAt": "2026-09-02T11:45:00Z"
+  },
+  {
+    "id": 1005,
+    "title": "Profile Picture Upload Failure",
+    "description": "Uploading PNG images larger than 2MB throws an unhandled server error.",
+    "customer": "Pixel Craft",
+    "priority": "MEDIUM",
+    "status": "OPEN",
+    "createdAt": "2026-09-03T14:20:18Z"
+  },
+  {
+    "id": 1006,
+    "title": "SSO Authentication Loops",
+    "description": "Google OAuth redirection loops infinitely when logging in via Safari browser.",
+    "customer": "Apex Solutions",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "createdAt": "2026-09-03T16:00:45Z"
+  },
+  {
+    "id": 1007,
+    "title": "Export to CSV Formatting Issue",
+    "description": "Special characters and commas in customer notes break column layouts in CSV exports.",
+    "customer": "Data Dynamics",
+    "priority": "LOW",
+    "status": "RESOLVED",
+    "createdAt": "2026-09-04T09:11:00Z"
+  },
+  {
+    "id": 1008,
+    "title": "Mobile App Dark Mode Glitch",
+    "description": "Text becomes unreadable (white text on white background) when dark mode is enabled on iOS.",
+    "customer": "Urban Mobile",
+    "priority": "LOW",
+    "status": "IN_PROGRESS",
+    "createdAt": "2026-09-04T12:30:15Z"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Auto-Renewal Failed",
+    "description": "Recurring billing cron job failed to process for tier 2 active subscriptions overnight.",
+    "customer": "SaaS Platform Inc",
+    "priority": "URGENT",
+    "status": "OPEN",
+    "createdAt": "2026-09-05T07:00:00Z"
+  },
+  {
+    "id": 1010,
+    "title": "Webhooks Not Firing on Order Fulfillment",
+    "description": "Third-party inventory systems are not receiving webhook events upon order status updates.",
+    "customer": "LogiFreight",
+    "priority": "HIGH",
+    "status": "IN_PROGRESS",
+    "createdAt": "2026-09-05T13:40:22Z"
+  },
+  {
+    "id": 1011,
+    "title": "Broken Link in Onboarding Guide",
+    "description": "Step 3 link in the welcome email points to a 404 page on the documentation site.",
+    "customer": "NextGen Retail",
+    "priority": "LOW",
+    "status": "CLOSED",
+    "createdAt": "2026-09-06T11:05:00Z"
+  },
+  {
+    "id": 1012,
+    "title": "API Rate Limiting Too Strict",
+    "description": "Legitimate automated REST API requests are returning HTTP 429 status codes prematurely.",
+    "customer": "FinTech Labs",
+    "priority": "MEDIUM",
+    "status": "OPEN",
+    "createdAt": "2026-09-07T08:15:33Z"
+  }
+]
