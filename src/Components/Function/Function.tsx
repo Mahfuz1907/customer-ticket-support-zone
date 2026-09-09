@@ -12,9 +12,9 @@ export interface FunctionProperties{
 export default function Function({TicketPromise}:FunctionProperties) {
     const tickets = use(TicketPromise)
     return (
-        <div className='m-20 grid grid-cols-3 justify-between items-start w-full'>
+        <div className='m-20 grid grid-cols-3 justify-between items-start w-full gap-8'>
             <div className='col-span-2'>
-                <CustomerTickets/>
+                <CustomerTickets tickets={tickets}/>
             </div>
             <div>
                 <TaskStatuses />
