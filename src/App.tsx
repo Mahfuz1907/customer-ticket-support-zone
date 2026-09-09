@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Footer from './Components/Footer/Footer'
@@ -17,7 +18,9 @@ function App() {
     <div className='bg-[#f5f5f5]'>
       <Navbar />
       <Banner />
-      <Function />
+      <Suspense fallback={<div>Loading.....</div>}>
+        <Function TicketPromise={TicketPromise()}/>
+      </Suspense>
       <Footer />
     </div>
   )
