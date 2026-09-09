@@ -4,6 +4,6 @@ export interface CustomerCardTypes {
     description: string,
     customer: string,
     priority: 'HIGH' | 'MEDIUM' | 'LOW' | 'URGENT',
-    status: "OPEN" | "IN_PROGRESS" | "CLOSED" | "RESOLVED",
+    status: "OPEN" | "IN PROGRESS" | "CLOSED" | "RESOLVED",
     createdAt: string
 }

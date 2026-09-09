@@ -14,7 +14,7 @@
     "description": "Customers reporting that password reset links are not landing in their inboxes or spam folders.",
     "customer": "Global Tech Sol",
     "priority": "MEDIUM",
-    "status": "IN_PROGRESS",
+    "status": "IN PROGRESS",
     "createdAt": "2026-09-01"
   },
   {
@@ -32,7 +32,7 @@
     "description": "API service crashing under heavy load due to unclosed PostgreSQL connections.",
     "customer": "Enterprise Networks",
     "priority": "URGENT",
-    "status": "IN_PROGRESS",
+    "status": "IN PROGRESS",
     "createdAt": "2026-09-02"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Text becomes unreadable (white text on white background) when dark mode is enabled on iOS.",
     "customer": "Urban Mobile",
     "priority": "LOW",
-    "status": "IN_PROGRESS",
+    "status": "IN PROGRESS",
     "createdAt": "2026-09-04"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Third-party inventory systems are not receiving webhook events upon order status updates.",
     "customer": "LogiFreight",
     "priority": "HIGH",
-    "status": "IN_PROGRESS",
+    "status": "IN PROGRESS",
     "createdAt": "2026-09-05"
   },
   {
